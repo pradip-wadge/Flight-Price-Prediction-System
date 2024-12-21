@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourly - Travel agancy</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+01 (123) 4567 90</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="Tourly logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+           
+
+            <li>
+              <a href="#Insigths" class="navbar-link" data-nav-link>Insights</a>
+            </li>
+
+            
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Book Now</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Journey to explore world</h2>
+
+          <p class="hero-text">
+            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
+            voluptatibus habitant?
+            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+
+            <button class="btn btn-secondary">Book now</button>
+          </div>
+
+        </div>
+      </section>
+
+      <div style="max-width: 1200px; margin: 100px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);">
+        <div style="display: flex; gap: 60px; padding-bottom: 10px;">
+            <img src="assets/images/plane.png" style="width: 70px; height: 70px; color: #007bff;"></img> 
+            <img src="assets/images/train (1).png" style="width: 70px; height: 70px;"></img>
+            <img src="assets/images/bus.png" style="width: 70px; height: 70px;"></img>
+            <img src="assets/images/hotel.png" style="width: 70px; height: 70px;"></img>
+        </div>
+
+        <form id="flightForm" action="http://127.0.0.1:5000/submit" method="post">
+            <div style="display: flex; cursor: pointer;">
+                <div style="padding: 10px 20px; margin-right: 10px; border: none; border-radius: 30px; background-color: #f5f5f5;">One Way</div>
+                <div style="padding: 10px 20px; margin-right: 10px; border: none; border-radius: 30px; background-color: #3c7ac9; font-weight: bold;">Round Trip</div>
+                <div style="padding: 10px 20px; margin-right: 10px; border: none; border-radius: 30px; background-color: #f5f5f5;">Multi City</div>
+            </div>
+
+            <div style="display: flex; gap: 50px; align-items: center; margin: 50px 0;">
+                <div>
+                    <label for="sourceAirport" style="display: block; margin-bottom: 5px; font-weight: bold;">From</label>
+                    <input type="text" id="sourceAirport" name="sourceAirport" placeholder="Enter city or airport (e.g., New Delhi)" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div>
+                    <label for="destinationAirport" style="display: block; margin-bottom: 5px; font-weight: bold;">To</label>
+                    <input type="text" id="destinationAirport" name="destinationAirport" placeholder="Enter city or airport (e.g., Dubai)" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div>
+                    <label for="departureDate" style="display: block; margin-bottom: 5px; font-weight: bold;">Departure Date</label>
+                    <input type="date" id="departureDate" name="departureDate" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div>
+                    <label for="returnDate" style="display: block; margin-bottom: 5px; font-weight: bold;">Return Date</label>
+                    <input type="date" id="returnDate" name="returnDate" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+
+                <div>
+                    <label for="adults" style="display: block; margin-bottom: 5px; font-weight: bold;">Number of Adults</label>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <button type="button" onclick="adjustAdults(-1)" style="padding: 10px; background: #f5f5f5; border: none; cursor: pointer;">-</button>
+                        <button type="button" onclick="adjustAdults(1)" style="padding: 10px; background: #f5f5f5; border: none; cursor: pointer;">+</button>
+                    </div>
+                    <input type="number" id="adults" name="adults" value="1" min="1" readonly style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; text-align: center;">
+                </div>
+            </div>
+
+            <div style="margin-top: 20px;">
+                <label for="classOfService" style="display: block; margin-bottom: 5px; font-weight: bold;">Class of Service</label>
+                <div style="position: relative; width: 100%;">
+                    <select id="classOfService" name="classOfService" style="width: 100%; padding: 15px; border-radius: 5px; border: 1px solid #ccc; background-color: white; font-size: 16px; appearance: none; -webkit-appearance: none; -moz-appearance: none; cursor: pointer; transition: all 0.3s ease;" required>
+                        <option value="ECONOMY">Economy</option>
+                        <option value="BUSINESS">Business</option>
+                        <option value="FIRST">First Class</option>
+                    </select>
+                    <div style="content: '▼'; position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 18px; color: #007bff;"></div>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: center; margin-top: 30px;">
+                <button type="submit" style="padding: 15px 30px; background: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">SEARCH</button>
+            </div>
+
+            <p style="padding: 0 450px 0 430px;">You Will Get Your Prediction In Next 22 Sec</p>
+        </form>
+    </div>
+
+    <script>
+        function adjustAdults(value) {
+            const adultsInput = document.getElementById("adults");
+            const currentValue = parseInt(adultsInput.value, 10);
+            if (currentValue + value >= 1) {
+                adultsInput.value = currentValue + value;
+            }
+        }
+    </script>
+  
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="Insigths" id="Insights">
+        <div class="container">
+
+          <p class="section-subtitle">Flight Dashboard </p>
+
+          <h2 class="h2 section-title">Make a booking </h2>
+
+          <p class="section-text" style="margin-bottom: 50px;">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+        </div>
+      </section>
+
+
+      <iframe 
+        title="projectDashboard" 
+        width="1600px" 
+        height="700px" 
+        src="https://app.powerbi.com/view?r=eyJrIjoiMjcwMDkwYzktMGVmNy00ZWQ2LWI0NGUtMmMxMWZhZDlkY2JhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&showFooter=false" 
+        frameborder="0" 
+        allowFullScreen="true"
+        >
+      </iframe>
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
+              laudantium. Sit ornare
+              mollitia tenetur, aptent.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Contact Us !</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
+            at
+            perferendis, pretium, aenean aut ultrices.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">info.tourly.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>3146 Koontz, California</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="">Yashjeet</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

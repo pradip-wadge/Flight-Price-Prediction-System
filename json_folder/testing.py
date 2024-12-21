@@ -2,10 +2,10 @@ import pandas as pd
 import os
                                 # Departure Date,Departure Time,Arrival Date,Arrival Time
 # Load the data from CSV
-data = pd.read_csv("json_folder/all_details_flights.csv")
+data = pd.read_csv("../json_folder/all_details_flights.csv")
 
 # Append the data to an existing CSV file
-data.to_csv("json_folder/all_data.csv", mode='a', index=False, header=False)
+data.to_csv("../json_folder/all_data.csv", mode='a', index=False, header=False)
 
 #ata= pd.DataFrame(data)
 
@@ -29,7 +29,7 @@ cleaned_data=data2.drop(columns=['Departure', 'Arrival'])
 
 
 # Save the cleaned data to a new CSV file
-cleaned_data.to_csv("Cleaned_data.csv", index=False)
+cleaned_data.to_csv("../json_folder/Cleaned_data.csv", index=False)
 
 total_flight= cleaned_data["Flight Number"].count()
 

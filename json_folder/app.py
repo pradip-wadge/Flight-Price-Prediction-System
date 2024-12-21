@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 import csv
 import os
 import subprocess
@@ -8,7 +8,8 @@ import threading
 app = Flask(__name__)
 
 @app.route('/')
-
+def serve_index():
+    return send_from_directory('static', 'index.html')
 
 @app.route('/submit', methods=['POST'])
 def submit_form():
@@ -23,7 +24,7 @@ def submit_form():
     }
 
     # Specify the temporary CSV file path
-    temp_csv = "json_folder/temp_flight_data.csv"
+    temp_csv = "temp_flight_data.csv"
 
     # Read existing data from CSV if it exists
     if os.path.exists(temp_csv):
@@ -51,10 +52,9 @@ def submit_form():
 
 # Function to open the browser automatically
 def open_browser():
-    webbrowser.open_new("http://127.0.0.1:5000/tourly/index.html")
+    webbrowser.open_new("http://127.0.0.1:5000/static/index.html")
 
 if __name__ == '__main__':
-    # Start Flask app in a thread
+    # Start Flask app in a thread and open the browser after 1 second
     threading.Timer(1, open_browser).start()
     app.run(debug=True)
-
