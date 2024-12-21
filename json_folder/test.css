@@ -1,0 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 150px 150px 150px 150px;
+  background-color: #f9f9f9;
+  box-shadow: #666;
+  opacity: 1;
+
+}
+
+.container {
+  display: auto;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 20px;
+  /* gap: 10px; */
+}
+  /* .flights-container {
+    display: flex;
+    gap: 40px; /* Space between flight cards */
+    /* padding: 20px;
+  } */ */
+  
+  .flight-box {
+    flex: 0 0 auto;
+    margin:10px 0 10px 0;
+    width: 300px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .airline {
+    display: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .airline h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .flight-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .departure h2,
+  .arrival h2 {
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  .layover {
+    text-align: center;
+    color: #666;
+  }
+  
+  .layover span {
+    color: red;
+  }
+  
+  .duration {
+    display: flex;
+    align-items: center;
+  }
+  
+  .duration hr {
+    border: none;
+    border-top: 2px solid #ffcc00;
+    width: 40px;
+    margin: 0 5px;
+  }
+  
+  .price-details {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .discount {
+    background-color: #ffecd6;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #b31c00;
+  }
+  
+  .discount .code {
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 24px;
+    color: #000;
+    margin: 10px 0;
+  }
+  
+  .per-adult {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .options {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .refundable {
+    color: #0a944f;
+    font-weight: bold;
+  }
+  
+  .lock-price {
+    color: #0077ff;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  .lock-price b {
+    color: #0077ff;
+  }
+  

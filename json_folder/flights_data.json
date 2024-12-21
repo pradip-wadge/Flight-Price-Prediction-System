@@ -1,0 +1,1586 @@
+{
+    "status": true,
+    "message": "Success",
+    "timestamp": 1734770608980,
+    "data": {
+        "session": {
+            "searchHash": "a0c324e9ee135dae3bfac1f632bdbb0b",
+            "pageLoadUid": "b4a86f7c-f3a1-43d0-b691-fb6c1a53db79",
+            "searchId": "33e27003-b457-443c-ae04-bd4ad567691d.100",
+            "filterSettings": {
+                "tt": "",
+                "aa": "",
+                "a": "",
+                "d": "",
+                "ns": "",
+                "cos": "0",
+                "fq": "",
+                "al": "",
+                "ft": "",
+                "sid": "",
+                "oc": "",
+                "plp": "",
+                "mc": "",
+                "da": "",
+                "pRange": "-1,-1",
+                "ca": ""
+            }
+        },
+        "complete": false,
+        "numOfFilters": 83,
+        "totalNumResults": 83,
+        "flights": [
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "IDR",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T17:30:00+05:30",
+                                "arrivalDateTime": "2024-12-23T19:00:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A320 (sharklets)",
+                                "amenities": [],
+                                "flightNumber": 902,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 662.15894,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "IDR",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T20:25:00+05:30",
+                                "arrivalDateTime": "2024-12-23T22:25:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A320neo",
+                                "amenities": [],
+                                "flightNumber": 6566,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1298.1923,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 85
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T07:20:00+05:30",
+                                "arrivalDateTime": "2024-12-31T09:45:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "AI",
+                                "operatingCarrierCode": "AI",
+                                "equipmentId": "Airbus A321-100/200",
+                                "amenities": [],
+                                "flightNumber": 763,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|49",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 164.01,
+                        "totalPricePerPassenger": 164.01,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|49&area=FLTCenterColumn|0|1|ItinList|2|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=164.01"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "HYD",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T10:45:00+05:30",
+                                "arrivalDateTime": "2024-12-23T13:05:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6019,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1268.0001,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "HYD",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T16:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6907,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1209.1342,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 75
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T07:20:00+05:30",
+                                "arrivalDateTime": "2024-12-31T09:45:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "AI",
+                                "operatingCarrierCode": "AI",
+                                "equipmentId": "Airbus A321-100/200",
+                                "amenities": [],
+                                "flightNumber": 763,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|59",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 164.01,
+                        "totalPricePerPassenger": 164.01,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|59&area=FLTCenterColumn|0|1|ItinList|3|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=164.01"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "HYD",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T10:45:00+05:30",
+                                "arrivalDateTime": "2024-12-23T13:05:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6019,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1268.0001,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "HYD",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T16:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6907,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1209.1342,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 75
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T04:50:00+05:30",
+                                "arrivalDateTime": "2024-12-31T07:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "AI",
+                                "operatingCarrierCode": "AI",
+                                "equipmentId": "Airbus A320-100/200",
+                                "amenities": [],
+                                "flightNumber": 703,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|16",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 164.01,
+                        "totalPricePerPassenger": 164.01,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|16&area=FLTCenterColumn|0|1|ItinList|4|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=164.01"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "HYD",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T10:45:00+05:30",
+                                "arrivalDateTime": "2024-12-23T13:05:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6019,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1268.0001,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "HYD",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T16:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6907,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1209.1342,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 75
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T22:30:00+05:30",
+                                "arrivalDateTime": "2025-01-01T01:00:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 508,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|52",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 165.97,
+                        "totalPricePerPassenger": 165.97,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|52&area=FLTCenterColumn|0|1|ItinList|6|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=165.97"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "IDR",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T17:30:00+05:30",
+                                "arrivalDateTime": "2024-12-23T19:00:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A320 (sharklets)",
+                                "amenities": [],
+                                "flightNumber": 902,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 662.15894,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "IDR",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T20:25:00+05:30",
+                                "arrivalDateTime": "2024-12-23T22:25:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A320neo",
+                                "amenities": [],
+                                "flightNumber": 6566,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1298.1923,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 85
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T20:50:00+05:30",
+                                "arrivalDateTime": "2024-12-31T23:15:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 2079,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|46",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 169.97,
+                        "totalPricePerPassenger": 169.97,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|46&area=FLTCenterColumn|0|1|ItinList|7|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=169.97"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "HYD",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T10:45:00+05:30",
+                                "arrivalDateTime": "2024-12-23T13:05:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6019,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1268.0001,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "HYD",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T16:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6907,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1209.1342,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 75
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T20:50:00+05:30",
+                                "arrivalDateTime": "2024-12-31T23:15:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 2079,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|36",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 169.97,
+                        "totalPricePerPassenger": 169.97,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|36&area=FLTCenterColumn|0|1|ItinList|8|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=169.97"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "HYD",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T10:45:00+05:30",
+                                "arrivalDateTime": "2024-12-23T13:05:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6019,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1268.0001,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "HYD",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T16:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6907,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1209.1342,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 75
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T19:15:00+05:30",
+                                "arrivalDateTime": "2024-12-31T21:40:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 493,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|60",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 169.97,
+                        "totalPricePerPassenger": 169.97,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|60&area=FLTCenterColumn|0|1|ItinList|9|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=169.97"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "HYD",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T10:45:00+05:30",
+                                "arrivalDateTime": "2024-12-23T13:05:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6019,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1268.0001,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "HYD",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T16:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6907,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1209.1342,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 75
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T16:15:00+05:30",
+                                "arrivalDateTime": "2024-12-31T18:50:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "AI",
+                                "operatingCarrierCode": "AI",
+                                "equipmentId": "Airbus A320neo",
+                                "amenities": [],
+                                "flightNumber": 768,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|8",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 170.24,
+                        "totalPricePerPassenger": 170.24,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|8&area=FLTCenterColumn|0|1|ItinList|10|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=170.24"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "HYD",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T10:45:00+05:30",
+                                "arrivalDateTime": "2024-12-23T13:05:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6019,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1268.0001,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "HYD",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T16:20:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 6907,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1209.1342,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 75
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T08:15:00+05:30",
+                                "arrivalDateTime": "2024-12-31T10:45:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A321neo",
+                                "amenities": [],
+                                "flightNumber": 5194,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|25",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 172.97,
+                        "totalPricePerPassenger": 172.97,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|25&area=FLTCenterColumn|0|1|ItinList|12|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=172.97"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "PAT",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T16:10:00+05:30",
+                                "arrivalDateTime": "2024-12-23T17:45:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A320 (sharklets)",
+                                "amenities": [],
+                                "flightNumber": 2214,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 857.90076,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "PAT",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T19:25:00+05:30",
+                                "arrivalDateTime": "2024-12-23T20:35:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A320neo",
+                                "amenities": [],
+                                "flightNumber": 342,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 472.65103,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 100
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T07:20:00+05:30",
+                                "arrivalDateTime": "2024-12-31T09:45:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "AI",
+                                "operatingCarrierCode": "AI",
+                                "equipmentId": "Airbus A321-100/200",
+                                "amenities": [],
+                                "flightNumber": 763,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|23",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 173.77,
+                        "totalPricePerPassenger": 173.77,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|23&area=FLTCenterColumn|0|1|ItinList|13|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=173.77"
+                    }
+                ]
+            },
+            {
+                "segments": [
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "DEL",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "GOP",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T14:20:00+05:30",
+                                "arrivalDateTime": "2024-12-23T15:45:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "Airbus A320neo",
+                                "amenities": [],
+                                "flightNumber": 2087,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 658.00726,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            },
+                            {
+                                "originStationCode": "GOP",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "CCU",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-23T17:05:00+05:30",
+                                "arrivalDateTime": "2024-12-23T18:50:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "6E",
+                                "operatingCarrierCode": "6E",
+                                "equipmentId": "ATR 72-201 / 202",
+                                "amenities": [],
+                                "flightNumber": 7306,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 680.0493,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729090,
+                                    "code": "6E",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/IndiGoAirlines.png",
+                                    "displayName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "layovers": [
+                            {
+                                "durationType": "NORMAL",
+                                "hasStationChange": false,
+                                "durationInMinutes": 80
+                            }
+                        ]
+                    },
+                    {
+                        "legs": [
+                            {
+                                "originStationCode": "CCU",
+                                "isDifferentOriginStation": false,
+                                "destinationStationCode": "DEL",
+                                "isDifferentDestinationStation": false,
+                                "departureDateTime": "2024-12-31T07:20:00+05:30",
+                                "arrivalDateTime": "2024-12-31T09:45:00+05:30",
+                                "classOfService": "ECONOMY",
+                                "marketingCarrierCode": "AI",
+                                "operatingCarrierCode": "AI",
+                                "equipmentId": "Airbus A321-100/200",
+                                "amenities": [],
+                                "flightNumber": 763,
+                                "seatGuruEquipmentId": 0,
+                                "seatGuruAirlineUrl": "",
+                                "numStops": 0,
+                                "distanceInKM": 1314.3622,
+                                "isInternational": false,
+                                "selfTransfer": false,
+                                "operatingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                },
+                                "marketingCarrier": {
+                                    "locationId": 8729004,
+                                    "code": "AI",
+                                    "logoUrl": "https://static.tacdn.com/img2/flights/airlines/logos/100x100/AirIndia.png",
+                                    "displayName": "Air India"
+                                }
+                            }
+                        ],
+                        "layovers": []
+                    }
+                ],
+                "purchaseLinks": [
+                    {
+                        "purchaseLinkId": "Kayak|1|4",
+                        "providerId": "eDreams",
+                        "partnerSuppliedProvider": {
+                            "id": "EDREAMSAIR",
+                            "displayName": "eDreams",
+                            "logoUrl": "https://content.r9cdn.net/rimg/provider-logos/airlines/h/EDREAMSAIR.us.png?crop=false&width=166&height=62&fallback=default2.png&_v=af0479a857c0eb142b1531d305bbf971"
+                        },
+                        "commerceName": "KayakFlightsMeta",
+                        "currency": "USD",
+                        "originalCurrency": "USD",
+                        "seatAvailability": 0,
+                        "taxesAndFees": 0,
+                        "taxesAndFeesPerPassenger": 0,
+                        "totalPrice": 173.77,
+                        "totalPricePerPassenger": 173.77,
+                        "fareBasisCodes": [],
+                        "containedPurchaseLinks": [],
+                        "partnerData": {},
+                        "isPaid": false,
+                        "fareAttributesList": [],
+                        "url": "https://www.tripadvisor.com/CheapFlightsPartnerHandoff?searchHash=a0c324e9ee135dae3bfac1f632bdbb0b&provider=Kayak|1|4&area=FLTCenterColumn|0|1|ItinList|14|Meta_ItineraryPrice&resultsServlet=CheapFlightsSearchResults&handoffPlatform=desktop&impressionId=&totalPricePerPassenger=173.77"
+                    }
+                ]
+            }
+        ]
+    }
+}
