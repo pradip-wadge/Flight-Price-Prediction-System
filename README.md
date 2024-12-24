@@ -73,10 +73,10 @@ Follow these steps to set up the project on your local machine:
 ## Screenshots
 _Add your screenshots here to showcase the user interface and prediction results._
 
-![Screenshot 1](Screenshots/screenshot1.jpg)
-![Screenshot 1](Screenshots/screenshot3.jpg)
-![Screenshot 1](Screenshots/screenshot5.jpg)
-![Screenshot 1](Screenshots/screenshot2.jpg)
+![Screenshot 1](Screenshots/screenshot1.jpg)    
+![Screenshot 1](Screenshots/screenshot3.jpg)    
+![Screenshot 1](Screenshots/screenshot5.jpg)    
+![Screenshot 1](Screenshots/screenshot2.jpg)  
 
 ## Future Enhancements
 - Implementing more sophisticated machine learning algorithms for improved accuracy.
