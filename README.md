@@ -2,7 +2,7 @@
 
 Welcome to the **Flight Price Prediction System** repository! This project utilizes machine learning, data analytics, and Flask to build a predictive web application for estimating flight prices.
 
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](Screenshots/screenshot1.jpg)
 
 ---
 
@@ -73,8 +73,10 @@ Follow these steps to set up the project on your local machine:
 ## Screenshots
 _Add your screenshots here to showcase the user interface and prediction results._
 
-![Screenshot 1](path/to/your/screenshot1.png)
-![Screenshot 2](path/to/your/screenshot2.png)
+![Screenshot 1](Screenshots/screenshot1.jpg)
+![Screenshot 1](Screenshots/screenshot3.jpg)
+![Screenshot 1](Screenshots/screenshot5.jpg)
+![Screenshot 1](Screenshots/screenshot2.jpg)
 
 ## Future Enhancements
 - Implementing more sophisticated machine learning algorithms for improved accuracy.
