@@ -1,4 +1,4 @@
-# Flight Price Prediction System 1234
+# Flight Price Prediction System 
 
 Welcome to the **Flight Price Prediction System** repository! This project utilizes machine learning, data analytics, and Flask to build a predictive web application for estimating flight prices.
 ## Catch Our Project Presentation:
